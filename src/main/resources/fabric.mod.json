@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "infested_stones",
+	"version": "${version}",
+	"name": "Template Mod",
+	"description": "Adds Infested Stone varients",
+	"authors": [
+		"Hydraheadhunter"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/infested_stones/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "hydraheadhunter.infested_stones.InfestedStonesHome"
+		],
+		"client": [
+			"hydraheadhunter.infested_stones.TemplateModClient"
+		],
+		"fabric-datagen": [
+			"hydraheadhunter.infested_stones.InfestedStonesDataGenerator"
+		]
+	},
+	"mixins": [
+		"template-mod.mixins.json",
+		{
+			"config": "template-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
