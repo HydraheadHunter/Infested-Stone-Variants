@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "hydraheadhunter.infested_stones.InfestedStonesHome"
+          "hydraheadhunter.infested_blocks.InfestedBlocksHome"
 		],
 		"client": [
-			"hydraheadhunter.infested_stones.TemplateModClient"
+			"hydraheadhunter.infested_blocks.TemplateModClient"
 		],
 		"fabric-datagen": [
-			"hydraheadhunter.infested_stones.InfestedStonesDataGenerator"
+			"hydraheadhunter.infested_blocks.InfestedBlocksDataGenerator"
 		]
 	},
 	"mixins": [
