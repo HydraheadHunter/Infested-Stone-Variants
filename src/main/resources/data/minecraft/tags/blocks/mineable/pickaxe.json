@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "infested_stones:ruby_block"
+    "infested_blocks:infested_andesite",
+    "infested_blocks:infested_granite",
+    "infested_blocks:infested_diorite",
+    "infested_blocks:infested_tuff"
   ]
 }

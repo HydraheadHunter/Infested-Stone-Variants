@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "hydraheadhunter.infested_stones.mixin.client",
+	"package": "hydraheadhunter.infested_blocks.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"
